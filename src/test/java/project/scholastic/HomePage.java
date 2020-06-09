@@ -28,7 +28,7 @@ public class HomePage extends resource.Driver{
 
 @Test
 public void Home() {
-	driver.get("https://www.scholastic.com/");
+	driver.get("https://www.dotdash.com/");
 	
 	homepage h=new homepage(driver);
 	List<WebElement> totallink=h.link();
